@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="71dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="610dp"
+        android:text="Nombre:" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="76dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="413dp"
+        android:text="Contraseña:" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="263dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="561dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="269dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="472dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Contraseña" />
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="211dp"
+        android:layout_height="152dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="143dp"
+        android:text="Enviar" />
+
+</RelativeLayout>
